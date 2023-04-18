@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " B ",
+    "B  "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "baguette:baguette",
+    "count": 1
+  }
+}
+

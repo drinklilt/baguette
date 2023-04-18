@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "baguette",
+  "version": "${version}",
+  "name": "baguette",
+  "description": "baguette.",
+  "authors": [
+    "drinklilt"
+  ],
+  "contact": {
+    "website": "https://lilt.rocks",
+    "repo": "https://github.com/drinklilt/baguette"
+  },
+  "license": "MIT",
+  "icon": "assets/baguette/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rocks.lilt.baguette.Baguette"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
